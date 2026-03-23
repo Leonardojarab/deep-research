@@ -1,0 +1,11 @@
+# Crea el .gitignore
+@"
+.venv/
+__pycache__/
+*.pyc
+.env
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+"@ | Out-File -Encoding utf8 .gitignore
